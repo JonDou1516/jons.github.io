@@ -1,0 +1,16 @@
+{
+  "name": "username/projectname",
+  "description": "A simple project for demonstration purposes. https://pixelporto.com/",
+  "type": "project",
+  "require": {
+    "php": ">=7.1.0"
+  },
+  "support": {
+    "homepage": "https://pixelporto.com/"
+  },
+  "autoload": {
+    "psr-4": {
+      "YourNamespace\\": "src/"
+    }
+  }
+}
